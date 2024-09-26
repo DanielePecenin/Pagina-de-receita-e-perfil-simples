@@ -1,0 +1,87 @@
+/* Importando uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffebcd;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #ff6347; /* Tomate */
+}
+
+header img {
+    width: 300px;
+    border: 5px solid #ff6347; /* Borda ao redor da imagem */
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h1, section h2 {
+    color: #2f4f4f; /* Cinza escuro */
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #333;
+    padding-left: 25px;
+    position: relative;
+}
+
+ul li::before {
+    content: "🍳"; /* Personalização dos marcadores com emoji */
+    position: absolute;
+    left: 0;
+    color: #ff6347;
+    font-size: 1.0em;
+}
+
+section:nth-of-type(2) {
+    background-color: #fffacd; /* Fundo de cor clara (amarelo suave) */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+li {
+    font-size: 1.1em;
+    color: #000;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+li:first-of-type {
+    font-weight: bold;
+    color: #ff4500; /* Destaque da primeira etapa */
+}
+
+li:last-of-type {
+    color: #2e8b57; /* Destaque da última etapa */
+    font-weight: bold;
+}
+
